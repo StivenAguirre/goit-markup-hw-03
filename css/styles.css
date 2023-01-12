@@ -1,0 +1,234 @@
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+.header-webstudio {
+  color: #2196f3;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.header-text:hover,
+.header-text:focus {
+  color: #2196f3;
+}
+
+.header-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+.a-header-text {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+.a-header-text:hover,
+.a-header-text:focus {
+  color: #2196f3;
+}
+
+.heroes {
+  background-color: #2f303a;
+}
+
+.heroes-title {
+  color: white;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.heroes-button {
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.indicators-title {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.indicators-text {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.dedicate-our-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.name-employee {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.function-employee {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.filter-briefcase {
+  border: none;
+  cursor: pointer;
+  padding: 6px 18px 6px 17px;
+}
+
+.filter-briefcase:hover,
+.filter-briefcase:focus {
+  background: #2196f3;
+  color: white;
+}
+
+.filter-briefcase {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.todo {
+  background: #2196f3;
+  color: white;
+  height: 38px;
+  width: 73px;
+  left: 495px;
+  top: 186px;
+}
+
+.sitio {
+  height: 38px;
+  width: 128px;
+  left: 576px;
+  top: 186px;
+}
+
+.aplicaciones {
+  height: 38px;
+  width: 145px;
+  left: 712px;
+  top: 186px;
+}
+
+.diseño {
+  height: 38px;
+  width: 103px;
+  left: 865px;
+  top: 186px;
+}
+
+.marketing {
+  height: 38px;
+  width: 130px;
+  left: 976px;
+  top: 186px;
+}
+
+.title-information {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.contens-information {
+  cursor: pointer;
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+footer {
+  color: white;
+  background-color: #2f303a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.a-footer:hover,
+.a-footer:focus {
+  color: #2196f3;
+}
+
+.a-footer:active {
+  color: #2196f3;
+}
+
+.a-footer {
+  color: #757575;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+.p-footer {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  margin-left: 40px;
+}
