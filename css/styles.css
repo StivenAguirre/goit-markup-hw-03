@@ -17,6 +17,34 @@ a {
   color: black;
 }
 
+/* header */
+
+.page-header {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #ececec;
+}
+
+.container-header {
+  width: 1200px;
+  height: 80px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.container-nav {
+  display: flex;
+  padding-left: 100px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+}
+
 .header-webstudio {
   color: #2196f3;
   font-family: 'Raleway', sans-serif;
@@ -24,12 +52,21 @@ a {
   font-weight: 700;
   line-height: 1;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-align: right;
+  padding: 15px;
+  padding-right: 93px;
+  text-decoration: none;
 }
 
-.header-text:hover,
-.header-text:focus {
-  color: #2196f3;
+.menu {
+  display: flex;
+  padding: 15px;
+  margin: 0;
+}
+
+.item-header {
+  display: flex;
+  margin: auto;
 }
 
 .header-text {
@@ -37,6 +74,21 @@ a {
   font-weight: 500;
   line-height: 1.7;
   letter-spacing: 0.02em;
+  text-decoration: none;
+  margin: auto;
+  margin-right: 50px;
+}
+
+.header-text:hover,
+.header-text:focus {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+.menu-link {
+  display: flex;
+  padding: 15px;
+  margin-left: 95px;
 }
 
 .a-header-text {
@@ -45,36 +97,114 @@ a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.02em;
+  text-decoration: none;
+  text-align: right;
+  margin-right: 50px;
 }
 
 .a-header-text:hover,
 .a-header-text:focus {
   color: #2196f3;
+  text-decoration: underline;
 }
 
-.heroes {
+/* Main Section Heroes */
+
+.container-heroes {
+  width: 1200px;
   background-color: #2f303a;
+  padding-top: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .heroes-title {
+  display: block;
+  margin: 0 auto;
+  width: 696px;
+  height: 120px;
+  margin-bottom: 30px;
   color: white;
-  font-size: 44px;
+
+  font-style: normal;
   font-weight: 900;
-  line-height: 1.8;
-  letter-spacing: 0.06em;
+  font-size: 44px;
+  line-height: 60px;
+
   text-align: center;
-  padding-top: 30px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .heroes-button {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  width: 261px;
+  height: 50px;
+  gap: 10px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.heroes-button:hover,
+.heroes-button:focus {
   background-color: #2196f3;
   color: white;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
-  letter-spacing: 0.06em;
-  text-align: center;
+}
+
+.heroes-button:active {
+  background-color: #2196f3;
+  color: white;
+}
+
+/* Main Section indicators */
+
+.container-indicators {
+  display: flex;
+  margin: auto;
+  margin-top: 55px;
+  width: 1200px;
+}
+
+.card-set-indicators {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: auto;
+  padding: 0px;
+}
+
+.card-indicators {
+  flex-basis: calc((100% - 20px) / 3);
+  padding: 10px;
+}
+
+.item-indicators {
+  margin-right: 30px;
+}
+
+.card-indicators indicators-title {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.item-indicators indicators-text {
+  margin: 0;
 }
 
 .indicators-title {
@@ -84,6 +214,8 @@ a {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-align: left;
+  height: 16px;
+  width: 270px;
 }
 
 .indicators-text {
@@ -93,6 +225,18 @@ a {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-align: left;
+  padding-top: 10px;
+}
+
+/* Main Section dedicate */
+
+.container-dedicate {
+  display: block;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 94px;
+  mix-blend-mode: normal;
 }
 
 .dedicate-our-title {
@@ -100,6 +244,63 @@ a {
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 55.05px;
+}
+
+.set-images-dedicate {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.item-dedicate {
+  padding-bottom: 30.26px;
+  margin: auto;
+}
+
+.images-dedicate {
+  height: 323.70465087890625px;
+  width: 373.1623840332031px;
+}
+
+/* Main Section team */
+
+.our-team {
+  height: 648px;
+  margin-top: 94px;
+  background-color: #f5f4fa;
+}
+
+.title-our-team {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: auto;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.set-images-team {
+  display: flex;
+  margin: auto;
+}
+
+.item-our-team {
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-right: 20px;
+}
+
+.images-our-team {
+  width: 270px;
+  height: 260px;
 }
 
 .name-employee {
@@ -120,16 +321,27 @@ a {
   text-align: center;
 }
 
-.filter-briefcase {
-  border: none;
-  cursor: pointer;
-  padding: 6px 18px 6px 17px;
+/* page Briefcase*/
+
+/* Desde este punto se maneja la pagina de portafolio */
+
+/* main section FilterBriefcase */
+
+.container-briefcase {
+  background-color: white;
+  margin: auto;
 }
 
-.filter-briefcase:hover,
-.filter-briefcase:focus {
-  background: #2196f3;
-  color: white;
+.set-filter-briefcase {
+  display: flex;
+  margin-top: 106px;
+  margin-bottom: 64px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-filter-briefcase {
+  margin: 8px;
 }
 
 .filter-briefcase {
@@ -139,6 +351,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-align: center;
+  border: none;
+  cursor: pointer;
 }
 
 .todo {
@@ -146,36 +360,60 @@ a {
   color: white;
   height: 38px;
   width: 73px;
-  left: 495px;
-  top: 186px;
+  text-align: center;
 }
 
 .sitio {
   height: 38px;
   width: 128px;
-  left: 576px;
-  top: 186px;
+  text-align: center;
 }
 
 .aplicaciones {
   height: 38px;
   width: 145px;
-  left: 712px;
-  top: 186px;
+  text-align: center;
 }
 
 .diseño {
   height: 38px;
   width: 103px;
-  left: 865px;
-  top: 186px;
+  text-align: center;
 }
 
 .marketing {
   height: 38px;
   width: 130px;
-  left: 976px;
-  top: 186px;
+  text-align: center;
+}
+
+.set-products {
+  display: block;
+  flex-wrap: wrap;
+}
+
+.filter-briefcase:hover,
+.filter-briefcase:focus {
+  background: #2196f3;
+  color: white;
+}
+
+/* main section products */
+
+.container-products {
+}
+
+.set-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+
+.item-products {
+  background-color: #fff;
+  border-radius: 4px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .title-information {
@@ -185,6 +423,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.06em;
   text-align: left;
+  margin-left: 24px;
 }
 
 .contens-information {
@@ -194,16 +433,59 @@ a {
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-align: left;
+  margin-left: 24px;
+}
+
+/* Footer */
+
+.container-footer-portafolio {
+  margin-top: 82px;
 }
 
 footer {
   color: white;
   background-color: #2f303a;
+}
+
+.container-footer {
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+}
+
+.header-webstudio-footer {
+  color: #2196f3;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.address-footer {
+  display: block;
+}
+
+.p-footer {
+  font-style: normal;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  text-align: left;
+  margin-bottom: 2px;
+}
+
+.set-addrees-footer {
+  display: block;
+  margin: auto;
+  padding: auto;
+}
+
+.item-a-footer {
+  margin-left: -38px;
 }
 
 .a-footer:hover,
@@ -222,13 +504,4 @@ footer {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.02em;
-}
-
-.p-footer {
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  margin-left: 40px;
 }
