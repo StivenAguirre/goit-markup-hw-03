@@ -1,3 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+/* Estilos para poner a cero la sangría superior de los elementos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* Clase para restablecer las propiedades básicas de las listas (ul) */
+ul {
+  list-style: none;
+  padding-left: 0;
+  text-decoration: none;
+  margin: 0;
+}
+/* Clase para restablecer las propiedades básicas de los enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* Propiedades para la correcta visualización de las imágenes */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* Propiedad para anular la cursiva en address */
+
+address {
+  font-style: normal;
+}
+
 body {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -5,44 +48,25 @@ body {
   color: #212121;
 }
 
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-a {
-  color: black;
-}
-
 /* header */
-
-.page-header {
-  max-width: 1200px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-bottom: 1px solid #ececec;
-}
-
-.container-header {
-  width: 1200px;
-  height: 80px;
-  padding-left: 15px;
-  display: flex;
-  align-items: center;
-}
-
-.container-nav {
-  display: flex;
-  padding-left: 100px;
-}
 
 .container {
   width: 1200px;
   padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid #ececec;
+}
+
+.container-nav {
+  display: flex;
+  margin: auto;
 }
 
 .header-webstudio {
@@ -50,33 +74,33 @@ a {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.1em;
   letter-spacing: 0.03em;
   text-align: right;
-  padding: 15px;
-  padding-right: 93px;
   text-decoration: none;
+  padding: 30px 0px;
+  margin-right: 93px;
+  margin-left: 100px;
 }
 
-.menu {
+.set-header {
   display: flex;
-  padding: 15px;
-  margin: 0;
+  margin-right: 100px;
 }
 
 .item-header {
   display: flex;
-  margin: auto;
+  margin-right: 35px;
 }
 
 .header-text {
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.7;
+  line-height: 1.7em;
   letter-spacing: 0.02em;
   text-decoration: none;
   margin: auto;
-  margin-right: 50px;
+  padding: 30px 0px;
 }
 
 .header-text:hover,
@@ -85,20 +109,21 @@ a {
   text-decoration: underline;
 }
 
-.menu-link {
+.set-link-header {
   display: flex;
-  padding: 15px;
-  margin-left: 95px;
+  margin: auto;
+  padding: auto;
 }
 
 .a-header-text {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.7em;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-align: right;
+  padding: 0;
   margin-right: 50px;
 }
 
@@ -113,7 +138,6 @@ a {
 .container-heroes {
   width: 1200px;
   background-color: #2f303a;
-  padding-top: 100px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -123,7 +147,7 @@ a {
   margin: 0 auto;
   width: 696px;
   height: 120px;
-  margin-bottom: 30px;
+  margin-top: 30px;
   color: white;
 
   font-style: normal;
@@ -158,6 +182,7 @@ a {
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-top: 30px;
 }
 
 .heroes-button:hover,
@@ -178,15 +203,13 @@ a {
   margin: auto;
   margin-top: 55px;
   width: 1200px;
+  padding-top: 95px;
+  padding-bottom: 94px;
 }
 
 .card-set-indicators {
   display: flex;
   gap: 10px;
-  list-style: none;
-  margin-top: 0px;
-  margin-bottom: auto;
-  padding: 0px;
 }
 
 .card-indicators {
@@ -198,15 +221,6 @@ a {
   margin-right: 30px;
 }
 
-.card-indicators indicators-title {
-  margin-top: 0;
-  font-size: 20px;
-}
-
-.item-indicators indicators-text {
-  margin: 0;
-}
-
 .indicators-title {
   color: #212121;
   font-size: 14px;
@@ -216,6 +230,7 @@ a {
   text-align: left;
   height: 16px;
   width: 270px;
+  margin-bottom: 10px;
 }
 
 .indicators-text {
@@ -225,7 +240,7 @@ a {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-align: left;
-  padding-top: 10px;
+  margin: auto;
 }
 
 /* Main Section dedicate */
@@ -233,9 +248,7 @@ a {
 .container-dedicate {
   display: block;
   width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 94px;
+  margin: auto;
   mix-blend-mode: normal;
 }
 
@@ -256,8 +269,9 @@ a {
 }
 
 .item-dedicate {
-  padding-bottom: 30.26px;
   margin: auto;
+  padding: auto;
+  padding-bottom: 94px;
 }
 
 .images-dedicate {
@@ -268,7 +282,7 @@ a {
 /* Main Section team */
 
 .our-team {
-  height: 648px;
+  width: 1200px;
   margin-top: 94px;
   background-color: #f5f4fa;
 }
@@ -281,17 +295,16 @@ a {
   text-align: center;
   margin: auto;
   padding-top: 94px;
-  padding-bottom: 50px;
 }
 
 .set-images-team {
   display: flex;
-  margin: auto;
+  margin-left: 37px;
+  margin-top: 50px;
+  padding-bottom: 94px;
 }
 
 .item-our-team {
-  width: 270px;
-  height: 368px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -310,6 +323,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-top: 30px;
 }
 
 .function-employee {
@@ -319,6 +333,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 10px;
+  padding-bottom: 30px;
 }
 
 /* page Briefcase*/
@@ -400,9 +416,6 @@ a {
 
 /* main section products */
 
-.container-products {
-}
-
 .set-products {
   display: flex;
   flex-wrap: wrap;
@@ -438,21 +451,9 @@ a {
 
 /* Footer */
 
-.container-footer-portafolio {
-  margin-top: 82px;
-}
-
 footer {
   color: white;
   background-color: #2f303a;
-}
-
-.container-footer {
-  display: block;
-  margin: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 50px;
 }
 
 .header-webstudio-footer {
@@ -471,7 +472,6 @@ footer {
 }
 
 .p-footer {
-  font-style: normal;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
@@ -500,7 +500,6 @@ footer {
 
 .a-footer {
   color: #757575;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
