@@ -66,11 +66,9 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
 }
 
-.page-header {
+.container-header {
   display: flex;
   background-color: var(--background-color-header);
   border-bottom: 1px solid var(--border-buttom-header-color);
@@ -78,7 +76,6 @@ body {
 
 .container-nav {
   display: flex;
-  margin: auto;
 }
 
 .header-webstudio {
@@ -111,8 +108,8 @@ body {
   line-height: 1.7em;
   letter-spacing: 0.02em;
   text-decoration: none;
-  margin: auto;
-  padding: 30px 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .header-text:hover,
@@ -123,8 +120,8 @@ body {
 
 .set-link-header {
   display: flex;
-  margin: auto;
-  padding: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .a-header-text {
@@ -135,7 +132,6 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   text-align: right;
-  padding: 0;
   margin-right: 50px;
 }
 
@@ -148,17 +144,13 @@ body {
 /* Main Section Heroes */
 
 .container-heroes {
-  width: 1200px;
   background-color: var(--background-color-heroes);
   padding-top: 200px;
   padding-bottom: 200px;
+  width: 1200px;
 }
 
 .heroes-title {
-  margin: 0 auto;
-  width: 696px;
-  height: 120px;
-  margin-top: 30px;
   color: white;
 
   font-style: normal;
@@ -209,8 +201,7 @@ body {
 /* Main Section indicators */
 
 .container-indicators {
-  margin: auto;
-  margin-top: 55px;
+  width: 1200px;
   padding-top: 95px;
   padding-bottom: 94px;
 }
@@ -220,13 +211,8 @@ body {
   gap: 10px;
 }
 
-.card-indicators {
-  flex-basis: calc((100% - 20px) / 3);
-  padding: 10px;
-}
-
 .item-indicators {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .indicators-title {
@@ -275,9 +261,6 @@ body {
 }
 
 .item-dedicate {
-  margin: auto;
-  padding: auto;
-  padding-bottom: 94px;
 }
 
 .images-dedicate {
@@ -420,14 +403,18 @@ body {
   flex-wrap: wrap;
   margin-top: 50px;
   margin-bottom: 82px;
+  gap: 30px;
 }
 
 .item-products {
   background-color: var(--background-color-header);
   border-radius: 4px;
   border-bottom: 1px solid var(--item-products-border);
-  margin-right: 20px;
   margin-bottom: 30px;
+}
+
+.link-products {
+  text-decoration: none;
 }
 
 .title-information {
@@ -461,11 +448,8 @@ footer {
 }
 
 .container-footer {
-  display: block;
-  margin: auto;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 50px;
 }
 
 .header-webstudio-footer {
@@ -496,7 +480,6 @@ footer {
 .set-addrees-footer {
   display: block;
   margin: auto;
-  padding: auto;
 }
 
 .item-a-footer {
