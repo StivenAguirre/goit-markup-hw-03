@@ -122,6 +122,7 @@ body {
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding: auto;
 }
 
 .a-header-text {
