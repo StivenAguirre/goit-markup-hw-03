@@ -66,10 +66,11 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container-header {
-  width: 1200px;
   display: flex;
   background-color: var(--background-color-header);
   border-bottom: 1px solid var(--border-buttom-header-color);
@@ -95,7 +96,6 @@ body {
 
 .set-header {
   display: flex;
-  margin-right: 100px;
   padding: 30px 0px;
 }
 
@@ -119,6 +119,7 @@ body {
 }
 
 .item-header:not(last-child) {
+  display: flex;
   margin-right: 50px;
 }
 
@@ -144,7 +145,6 @@ body {
   background-color: var(--background-color-heroes);
   padding-top: 200px;
   padding-bottom: 200px;
-  width: 1200px;
 }
 
 .heroes-title {
@@ -198,7 +198,6 @@ body {
 /* Main Section indicators */
 
 .container-indicators {
-  width: 1200px;
   padding-top: 95px;
   padding-bottom: 94px;
 }
@@ -268,7 +267,6 @@ body {
 /* Main Section team */
 
 .our-team {
-  width: 1200px;
   margin-top: 94px;
   background-color: var(--background-color-team);
 }
