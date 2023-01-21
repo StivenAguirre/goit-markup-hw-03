@@ -91,12 +91,10 @@ body {
   text-decoration: none;
   padding: 30px 0px;
   margin-right: 93px;
-  margin-left: 100px;
 }
 
 .set-header {
   display: flex;
-  margin-right: 100px;
   padding: 30px 0px;
 }
 
@@ -117,9 +115,10 @@ body {
 .set-link-header {
   display: flex;
   padding: 30px 0px;
+  margin-right: 258px;
 }
 
-.item-header:not(last-child) {
+.item-header {
   display: flex;
   margin-right: 50px;
 }
@@ -205,11 +204,10 @@ body {
 
 .card-set-indicators {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .item-indicators {
-  margin-right: 20px;
 }
 
 .indicators-title {
@@ -258,6 +256,7 @@ body {
 }
 
 .item-dedicate {
+  margin-right: 30px;
 }
 
 .images-dedicate {
@@ -286,13 +285,13 @@ body {
   display: flex;
   margin-top: 50px;
   padding-bottom: 94px;
+  gap: 20px;
 }
 
 .item-our-team {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-right: 20px;
 }
 
 .images-our-team {
@@ -352,37 +351,12 @@ body {
   text-align: center;
   border: none;
   cursor: pointer;
+  padding: 6px 24px;
 }
 
 .todo {
   background: var(--color-pseudoclase);
   color: white;
-  height: 38px;
-  width: 73px;
-  text-align: center;
-}
-
-.sitio {
-  height: 38px;
-  width: 128px;
-  text-align: center;
-}
-
-.aplicaciones {
-  height: 38px;
-  width: 145px;
-  text-align: center;
-}
-
-.diseño {
-  height: 38px;
-  width: 103px;
-  text-align: center;
-}
-
-.marketing {
-  height: 38px;
-  width: 130px;
   text-align: center;
 }
 
@@ -399,13 +373,13 @@ body {
   flex-wrap: wrap;
   margin-top: 50px;
   margin-bottom: 82px;
-  gap: 30px;
+  gap: 20px;
 }
 
 .item-products {
   background-color: var(--background-color-header);
   border-radius: 4px;
-  border-bottom: 1px solid var(--item-products-border);
+  border: 1px solid var(--item-products-border);
   margin-bottom: 30px;
 }
 
@@ -421,7 +395,8 @@ body {
   letter-spacing: 0.06em;
   text-align: left;
   padding-top: 20px;
-  margin-left: 24px;
+  padding-left: 24px;
+  padding-right: 20px;
 }
 
 .contens-information {
@@ -431,7 +406,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-align: left;
-  margin-left: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
   padding-bottom: 20px;
   margin-top: 4px;
 }
