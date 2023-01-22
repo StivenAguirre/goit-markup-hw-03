@@ -168,7 +168,7 @@ body {
 }
 
 .heroes-button {
-  margin: 0 auto;
+  margin: auto;
   gap: 10px;
   padding: 10px 32px;
   font-style: normal;
@@ -255,8 +255,6 @@ body {
 }
 
 .images-dedicate {
-  height: 323.70465087890625px;
-  width: 373.1623840332031px;
 }
 
 /* Main Section team */
