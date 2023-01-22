@@ -169,22 +169,14 @@ body {
 
 .heroes-button {
   margin: 0 auto;
-  justify-content: center;
-  width: 261px;
-  height: 50px;
   gap: 10px;
-
+  padding: 10px 32px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -211,7 +203,7 @@ body {
 
 .card-set-indicators {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .item-indicators {
@@ -224,8 +216,6 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-align: left;
-  height: 16px;
-  width: 270px;
   margin-bottom: 10px;
 }
 
@@ -236,7 +226,6 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-align: left;
-  margin: auto;
 }
 
 /* Main Section dedicate */
@@ -252,7 +241,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-align: center;
-  margin: auto;
   margin-bottom: 55.05px;
 }
 
@@ -260,10 +248,10 @@ body {
   display: flex;
   margin: auto;
   justify-content: center;
+  gap: 30px;
 }
 
 .item-dedicate {
-  margin-right: 30px;
 }
 
 .images-dedicate {
@@ -292,18 +280,17 @@ body {
   display: flex;
   margin-top: 50px;
   padding-bottom: 94px;
-  gap: 20px;
+  gap: 30px;
 }
 
 .item-our-team {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: white;
 }
 
 .images-our-team {
-  width: 270px;
-  height: 260px;
 }
 
 .name-employee {
@@ -380,8 +367,7 @@ body {
   flex-wrap: wrap;
   margin-top: 50px;
   margin-bottom: 82px;
-  gap: 20px;
-  justify-content: center;
+  gap: 26px;
 }
 
 .item-products {
